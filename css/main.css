@@ -1,0 +1,39 @@
+nav .navbar-nav a {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+nav .navbar-nav a.active {
+  color: #d8b800 !important;
+}
+
+nav .navbar-nav a:hover {
+  color: #d8b800 !important;
+}
+
+.jumbotron .text-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #d8b800;
+}
+
+.jumbotron .lead {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5f5100;
+}
+
+.jumbotron .btn-cta {
+  background-color: #ffa600;
+  color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.jumbotron .btn-cta:hover {
+  background-color: #ffb62d;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
