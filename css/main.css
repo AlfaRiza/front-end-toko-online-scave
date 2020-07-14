@@ -15,25 +15,189 @@ nav .navbar-nav a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 60px;
-  color: #d8b800;
 }
 
 .jumbotron .lead {
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
-  color: #5f5100;
+  color: #868476;
 }
 
-.jumbotron .btn-cta {
-  background-color: #ffa600;
-  color: #ffffff;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+.btn:active {
+  -webkit-box-shadow: 0 0 0 0.2rem #d8b800;
+          box-shadow: 0 0 0 0.2rem #d8b800;
 }
 
-.jumbotron .btn-cta:hover {
-  background-color: #ffb62d;
-  color: #ffffff;
+.produk figcaption h5 {
+  font-size: 16px;
+}
+
+.produk .text-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.produk .text-scn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #868476;
+}
+
+.produk .produk-img {
+  position: relative;
+}
+
+.produk .produk-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.produk .produk-img:hover a {
+  opacity: 1;
+}
+
+.pesan .text-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.pesan .text-scn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #868476;
+}
+
+.pesan .produk-img {
+  position: relative;
+}
+
+.pesan .produk-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.pesan .produk-img:hover a {
+  opacity: 1;
+}
+
+.pesan .media-body a:hover {
+  text-decoration: none;
+}
+
+.testimoni .text-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.testimoni .text-testi {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffff;
+}
+
+.testimoni .text-scn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #868476;
+}
+
+.testimoni .text-bio {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #868476;
+}
+
+footer .text-scn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #868476;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .text-scn:hover {
+  text-decoration: none !important;
+  color: #d8b800;
+}
+
+ol.breadcrumb a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ol.breadcrumb a:hover {
+  text-decoration: none;
+  color: #ffc107 !important;
+}
+
+.navigasi a.active {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #ffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navigasi a.active:hover {
+  background-color: #ffd900;
+  border-color: #ffd900;
+}
+
+.navigasi a {
+  background-color: #ffff;
+  border-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navigasi a:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #ffff;
+}
+
+.navigasi .produk-img {
+  position: relative;
+}
+
+.navigasi .produk-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.navigasi .produk-img:hover a {
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
