@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Online</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;500;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #050606;">
+      <a class="navbar-brand text-warning" href="#">
+        <img src="image/logo1.png" width="30px" class="rounded-circle d-inline-block align-top" alt="" loading="lazy" />
+        Scave
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link mr-3" href="#">Home </a>
+          <a class="nav-item nav-link mr-3" href="#">Produk</a>
+          <a class="nav-item nav-link mr-3" href="#">Promo</a>
+          <a class="nav-item nav-link mr-3" href="#">About Us</a>
+          <a class="nav-item nav-link mr-3" href="#">FAQ</a>
+          <a href="" class="d-lg-none btn rounded-pill px-lg-4 py-lg-2 mr-lg-2 text-warning"><i
+              class="fas fa-fw fa-cart-plus"></i>
+            Cart</a>
+          <a href="" class="d-lg-none btn btn-outline-warning rounded-pill px-lg-4 py-lg-2">Login</a>
+        </div>
+      </div>
+      <div class="d-none d-lg-flex justify-content-end">
+        <a href="" class="btn rounded-pill px-lg-4 py-lg-2 mr-lg-2 text-warning"><i class="fas fa-fw fa-cart-plus"></i>
+          Cart</a>
+        <a href="" class="btn btn-outline-warning rounded-pill px-lg-4 py-lg-2">Login</a>
+      </div>
+
+    </nav>
+  </div>
+  <!-- End of Navbar -->
+  <section style="background-color: #050606;">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb" style="background-color: #464646;">
+              <li class="breadcrumb-item"><a class="text-secondary" href="#">Home</a></li>
+              <li class="breadcrumb-item active text-warning" aria-current="page">Detail</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <div class="row cart">
+        <!-- Main Category -->
+        <div class="col-lg-12 col-12" style="margin-top: -50px;">
+          <div class="row">
+            <div class="col">
+              <h1 class="text-warning pt-5 text-header">Detail</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/one.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/tri.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/two.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <h5>Kaos Jadul</h5>
+              <p>
+                Rp. 120.000,00 <sup class="text-danger"><strike>Rp. 150.000,00</strike></sup>
+              </p>
+              <p class="deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto
+                necessitatibus similique aut perspiciatis dolore deleniti doloribus vero esse voluptatibus ratione,
+                eligendi animi? Dolores, eligendi repellendus. Sunt, atque? Laboriosam, eius.</p>
+              <a href="" class="btn btn-warning btn-block">
+                Add to cart
+              </a>
+            </div>
+            <div class="col-lg-3 mt-5 pt-3">
+              <div class="media">
+                <div class="produk-img">
+                  <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+                  <a href="" class="d-flex justify-content-center">
+                    <img src="image/detail.png" class="align-self-center" alt="">
+                  </a>
+                </div>
+                <div class="media-body ml-2">
+                  <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+                  <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="produk-img">
+                  <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+                  <a href="" class="d-flex justify-content-center">
+                    <img src="image/detail.png" class="align-self-center" alt="">
+                  </a>
+                </div>
+                <div class="media-body ml-2">
+                  <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+                  <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer style="background: url('image/background1.jpg'); background-attachment: fixed;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-3 kontak">
+          <h5 class="text-white">Find Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-scn" href=""><i class="fab fa-fw fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a class="text-scn" href=""><i class="fab fa-fw fa-facebook-square"></i> Facebook</a>
+            </li>
+            <li>
+              <a class="text-scn" href=""><i class="fab fa-fw fa-youtube"></i> Youtube</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-lg-3 kategori">
+          <h5 class="text-white">Our Categories</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-scn" href="">Kaos Modern</a>
+            </li>
+            <li>
+              <a class="text-scn" href="">Kaos Klasik</a>
+            </li>
+            <li>
+              <a class="text-scn" href="">Kaos Pria</a>
+            </li>
+            <li>
+              <a class="text-scn" href="">Kaos Wanita</a>
+            </li>
+            <li>
+              <a class="text-scn" href="">Kaos Anak</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-lg-3 alamat">
+          <p class="text-white">Contact Us</p>
+          <h5 class="text-scn">
+            <i class="fas fa-fw fa-map-marker-alt"></i> Jalan Gajah Mada no 20, Purwodadi, Grobogan, Jawa
+            Tengah
+          </h5>
+          <p class="text-scn">
+            <i class="fas fa-fw fa-phone-alt"></i> 082260757992
+          </p>
+        </div>
+        <div class="col-sm-12 col-md maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15837.249462119555!2d110.90949640000001!3d-7.0897429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70b06e4da11ad9%3A0xe26062937729fd11!2sSMP%20Negeri%201%20Purwodadi!5e0!3m2!1sid!2sid!4v1594673122541!5m2!1sid!2sid"
+            width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col d-flex justify-content-center">
+          <p class="text-white">All Right Reserved @2020 by Toko Online</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Of Footer -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <!-- <script src="js/popper.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="fontawesome-free/js/all.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

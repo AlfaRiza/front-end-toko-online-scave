@@ -200,4 +200,28 @@ ol.breadcrumb a:hover {
 .navigasi .produk-img:hover a {
   opacity: 1;
 }
+
+.cart .produk-img {
+  position: relative;
+}
+
+.cart .produk-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.cart .produk-img:hover a {
+  opacity: 1;
+}
+
+.cart .media-body a:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
