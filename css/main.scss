@@ -217,3 +217,31 @@ ol.breadcrumb{
     text-decoration: none;
   }
 }
+// Serupa
+.serupa{
+  .produk-img{
+    position: relative;
+  }
+  .produk-img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .produk-img:hover a{
+    opacity: 1;
+  }
+  .media-body a:hover{
+    text-decoration: none;
+  }
+  .text-scn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #868476;
+  }
+}

@@ -18,7 +18,7 @@
   <!-- Navbar -->
   <div class="container">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #050606;">
-      <a class="navbar-brand text-warning" href="#">
+      <a class="navbar-brand text-warning" href="index.html">
         <img src="image/logo1.png" width="30px" class="rounded-circle d-inline-block align-top" alt="" loading="lazy" />
         Scave
       </a>
@@ -28,10 +28,10 @@
       </button>
       <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link mr-3" href="#">Home </a>
-          <a class="nav-item nav-link mr-3" href="#">Produk</a>
-          <a class="nav-item nav-link mr-3" href="#">Promo</a>
-          <a class="nav-item nav-link mr-3" href="#">About Us</a>
+          <a class="nav-item nav-link mr-3" href="index.html">Home</a>
+          <a class="nav-item nav-link mr-3" href="produk.html">Produk</a>
+          <a class="nav-item nav-link mr-3" href="produk.html">Promo</a>
+          <a class="nav-item nav-link mr-3" href="aboutUs.html">About Us</a>
           <a class="nav-item nav-link mr-3" href="#">FAQ</a>
           <a href="" class="d-lg-none btn rounded-pill px-lg-4 py-lg-2 mr-lg-2 text-warning"><i
               class="fas fa-fw fa-cart-plus"></i>
@@ -40,9 +40,10 @@
         </div>
       </div>
       <div class="d-none d-lg-flex justify-content-end">
-        <a href="" class="btn rounded-pill px-lg-4 py-lg-2 mr-lg-2 text-warning"><i class="fas fa-fw fa-cart-plus"></i>
+        <a href="cart.html" class="btn rounded-pill px-lg-4 py-lg-2 mr-lg-2 text-warning"><i
+            class="fas fa-fw fa-cart-plus"></i>
           Cart</a>
-        <a href="" class="btn btn-outline-warning rounded-pill px-lg-4 py-lg-2">Login</a>
+        <a href="login.html" class="btn btn-outline-warning rounded-pill px-lg-4 py-lg-2">Login</a>
       </div>
 
     </nav>
@@ -69,7 +70,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-5">
+            <div class="col-6 mb-5">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,47 +98,230 @@
                 </a>
               </div>
             </div>
-            <div class="col-4">
-              <h5>Kaos Jadul</h5>
-              <p>
-                Rp. 120.000,00 <sup class="text-danger"><strike>Rp. 150.000,00</strike></sup>
-              </p>
-              <p class="deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto
-                necessitatibus similique aut perspiciatis dolore deleniti doloribus vero esse voluptatibus ratione,
-                eligendi animi? Dolores, eligendi repellendus. Sunt, atque? Laboriosam, eius.</p>
-              <a href="" class="btn btn-warning btn-block">
-                Add to cart
-              </a>
-            </div>
-            <div class="col-lg-3 mt-5 pt-3">
-              <div class="media">
-                <div class="produk-img">
-                  <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
-                  <a href="" class="d-flex justify-content-center">
-                    <img src="image/detail.png" class="align-self-center" alt="">
-                  </a>
-                </div>
-                <div class="media-body ml-2">
-                  <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
-                  <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            <div class="col-6">
+              <div class="card" style="background-color: #464646;">
+                <h5 class="card-header">Informasi</h5>
+                <div class="card-body">
+                  <h5 class="card-title text-warning">Kaos Jadul</h5>
+                  <p class="card-text text-secondary deskripsi">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Repudiandae
+                    recusandae
+                    nemo explicabo dolorem ipsum, qui aliquid omnis quia? Impedit, fuga neque voluptatibus sint
+                    blanditiis quasi adipisci vel harum sed iste.</p>
+                  <p>
+                    <span class="text-white">Rp. 120.000,00 </span><sup class="text-danger"><strike>Rp.
+                        150.000,00</strike></sup>
+                  </p>
                 </div>
               </div>
-              <div class="media">
-                <div class="produk-img">
-                  <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
-                  <a href="" class="d-flex justify-content-center">
-                    <img src="image/detail.png" class="align-self-center" alt="">
-                  </a>
-                </div>
-                <div class="media-body ml-2">
-                  <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
-                  <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
-                </div>
-              </div>
+              <a href="#" class="btn btn-warning btn-block"><i class="fas fa-cart-arrow-down"></i> Add to cart</a>
             </div>
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+  <!-- Produk serupa -->
+  <section id="serupa" class="serupa" style="background: url('image/background1.jpg'); background-attachment: fixed;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-warning pt-1 text-header">Produk Serupa</h1>
+          <p class="text-scn">Temukan produk yang serupa dengan barang diatas</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="200px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <figcaption class="figure-caption">
+              <h5 class="text-warning">Kaos Oblong</h5>
+            </figcaption>
+            <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="200px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <figcaption class="figure-caption">
+              <h5 class="text-warning">Kaos Oblong</h5>
+            </figcaption>
+            <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="200px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <figcaption class="figure-caption">
+              <h5 class="text-warning">Kaos Oblong</h5>
+            </figcaption>
+            <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="200px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <figcaption class="figure-caption">
+              <h5 class="text-warning">Kaos Oblong</h5>
+            </figcaption>
+            <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Produk Kategori -->
+  <section class="pesan" style="background-color: #050606; background-attachment: fixed;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-warning text-header">Categories</h1>
+          <p class="text-scn">Temukan kategori yang sesuai dengan anda</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Kaos -->
+        <div class="col-12 col-lg-4">
+          <h3 class="text-warning my-3">Kaos</h3>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/one.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+        </div>
+        <!-- Jaket -->
+        <div class="col-12 col-lg-4">
+          <h3 class="text-warning my-3">Kaos</h3>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/two.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/two.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Kaos Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/two.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Jaket Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+        </div>
+        <!-- Hoodie -->
+        <div class="col-12 col-lg-4">
+          <h3 class="text-warning my-3">Kaos</h3>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/tri.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Jaket Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/tri.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Hoodie Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="produk-img">
+              <img src="image/tri.jpg" width="75px" class="figure-img img-fluid rounded" alt="Produk">
+              <a href="" class="d-flex justify-content-center">
+                <img src="image/detail.png" class="align-self-center" alt="">
+              </a>
+            </div>
+            <div class="media-body ml-2">
+              <h5><a class="mt-0 text-warning" href="">Hoodie Oblong</a></h5>
+              <p class="text-white">Rp. 120.000,00 <sup class="text-danger"><strike>Rp.150.000,00</strike></sup></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
